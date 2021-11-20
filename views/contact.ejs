@@ -1,4 +1,19 @@
-<main>
-  <%- include('./includes/navbar') %>
-  <h2>Page Contact</h2>
-</main>
+<%- include('./includes/header') -%>
+  <main>
+    <section id="section-contact">
+      <figure id="figure-form"></figure>
+      <article>
+        <form action="#">
+          <div>
+            <label for="email">You Email</label><br>
+            <input type="email" name="youemail" id="email" placeholder="You email" >
+          </div>
+          <div>
+            <label for="password">You Password</label><br>
+            <input type="email" name="youemail" id="email" placeholder="You Password">
+          </div>
+        </form>
+      </article>
+    </section>
+  </main>
+<%- include('./includes/footer') -%>
