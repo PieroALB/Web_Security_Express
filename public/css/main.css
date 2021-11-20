@@ -155,6 +155,7 @@ input[type='email'],
 input[type='submit'],
 input[type='password']{
   width: 12rem;
+  font-weight: bold;
   margin-bottom: .4rem;
   border:2px solid #e40b0b;
   background-color:transparent;
@@ -162,4 +163,16 @@ input[type='password']{
   text-align: center;
   padding: .3rem 0rem;
   border-radius: 6rem;
+}
+
+input[type="submit"]
+{
+  background-color:rgba(228, 11, 11,5);
+  transition: all 300ms ease-in 0s;
+  font-family: var(--title);
+  cursor: pointer;
+}
+input[type="submit"]:hover
+{
+  background-color: transparent;
 }
